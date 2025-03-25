@@ -28,5 +28,5 @@ jobs:
         host: 188.245.157.167
         username: root
         password: totonono
-        source: "/build/libs/demo-0.0.1-SNAPSHOT.jar"
+        source: "build/libs/demo-0.0.1-SNAPSHOT.jar"
         target: /home/thierry/
