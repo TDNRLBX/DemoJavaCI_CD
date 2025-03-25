@@ -54,5 +54,4 @@ jobs:
         host: 188.245.157.167
         username: root
         password: totonono
-        command-timeout: 30m
         script: sudo systemctl restart thierry.service      
