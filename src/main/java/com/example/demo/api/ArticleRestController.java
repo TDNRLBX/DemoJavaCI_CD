@@ -16,8 +16,6 @@ public class ArticleRestController {
     @GetMapping("/articles")
     public List<Article> getAll() {
         // Récupérer la lise des articles
-        List<Article> articles = articleService.getAll();
-
-        return articles;
+        return articleService.getAll();
     }
 }

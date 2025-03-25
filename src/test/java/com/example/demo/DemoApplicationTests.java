@@ -14,11 +14,8 @@ class DemoApplicationTests {
 	BankService bankService;
 
 	@Test
-	void contextLoads() {
-	}
+	void RG11315() {
 
-	@Test
-	void RG_11315() {
 		// Cas 789
 		ServiceResponseDTO responseDTO789 = bankService.debit(6000);
 		assertEquals("789", responseDTO789.code);

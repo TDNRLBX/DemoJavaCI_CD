@@ -16,7 +16,7 @@ public class ServiceResponseDTO<T> {
     }
 
     public static <T> ServiceResponseDTO<T> buildResponseWithData(String code, String message, T data) {
-        ServiceResponseDTO<T> response = new ServiceResponseDTO<T>();
+        ServiceResponseDTO<T> response = new ServiceResponseDTO<>();
         response.code = code;
         response.message = message;
         response.data = data;
