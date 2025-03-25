@@ -27,7 +27,6 @@ replay_pid*
 .idea/gradle.xml
 .idea/misc.xml
 .idea/vcs.xml
-build.gradle
 build/reports/problems/problems-report.html
 build/reports/tests/test/classes/com.example.demo.DemoApplicationTests.html
 build/reports/tests/test/css/base-style.css
