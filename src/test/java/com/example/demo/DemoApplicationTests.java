@@ -17,11 +17,11 @@ class DemoApplicationTests {
 	void RG11315() {
 
 		// Cas 789
-		ServiceResponseDTO responseDTO789 = bankService.debit(6000);
+		ServiceResponseDTO<Float> responseDTO789 = bankService.debit(6000);
 		assertEquals("789", responseDTO789.code);
 
 		// Cas 207
-		ServiceResponseDTO responseDTO207 = bankService.debit(1200);
+		ServiceResponseDTO<Float> responseDTO207 = bankService.debit(1200);
 		assertEquals("207", responseDTO207.code);
 
 	}
